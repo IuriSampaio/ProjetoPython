@@ -49,4 +49,11 @@ Os eleitores precisam digitar o seu CPF, seu nome e depois da demonstração dos
 - mostarEleitores: mostra os Eleitores que votaram.
 ##### Métodos da classe mesario:
 - menu: Mostra o menu para mesario.
-- inserirEleitor: insere o eleitor no banco de dados Passa como atributo o cpf, nome e voto do eleitor.
+- inserirEleitor: Insere o eleitor no banco de dados Passa como atributo o cpf, nome e voto do eleitor.
+
+--------------------------------------------------------------------------------------------------------
+
+## Sobre os arquivos
+
+- urna.py --> Contem as classes, atributos, métodos e tabelas do banco de dados (Orientado á objeto)
+- main.py --> É o arquivo que chama os métodos das classes no programa (Procedural)
