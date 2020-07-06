@@ -177,7 +177,7 @@ class presidente:
     
     def inicioVotacao(self):
         self.cursor.execute('''
-        TRUNCATE TABLE tbl_eleitor
+        delete from tbl_eleitor
         ''')
         if self.cursor.rowcount==0:
             print("não foi possivel limpar a votação")
